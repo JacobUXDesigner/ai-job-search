@@ -172,5 +172,5 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 ## Submission Guidelines (Best Practice)
 - Submit only the documents the employer requests
 - Export as PDF to preserve formatting
-- Name files clearly: "[Your Name] CV" and "[Your Name] Cover Letter"
 - Follow all employer instructions regarding anonymity or specific materials
+- **Deliverable file naming:** see "Deliverable File Naming" in the workspace root `CLAUDE.md` — finished PDFs get a human-readable copy in `deliverables/` (`Jacob Bunan - CV <Role> - <Company>.pdf`), separate from the internal `cv/main_<company>_<role>.tex` working files.

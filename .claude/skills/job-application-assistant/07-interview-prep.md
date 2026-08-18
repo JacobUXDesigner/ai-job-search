@@ -4,8 +4,6 @@ framework_version: 1.0.0
 
 # Interview Preparation Guide
 
-<!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
-
 ## STAR Format
 
 Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome).
@@ -14,44 +12,57 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. RunPerfect — research changing a stakeholder's mind (research influence)
+**S:** A SaaS client (running-shoe fitting product, under NDA) had a fixed idea of how their tablet-based product should work.
+**T:** Design a user-flow-focused interface with a minimum learning curve, under NDA constraints on specifics.
+**A:** Ran design research into how users actually approached the product, then brought findings back to the stakeholders rather than just delivering the requested interface.
+**R:** The research led the stakeholders to re-evaluate their approach to the product — a rare outcome where design research changed a business decision, not just an interface.
+**Use for:** "Tell me about a time your research changed a decision," "How do you push back on stakeholders?"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Herenboeren Foundation — design systems at scale (systems thinking, stakeholder management)
+**S:** A volunteer NPO needed a website template that could serve 22 independently-run local chapters without fragmenting the parent brand.
+**T:** Gather requirements across the foundation and individual chapters, then design one system that worked for all of them.
+**A:** Built a single modular template that gave each chapter room to differ while keeping one recognizable whole, resolving two distinct personas (local member and foundation-level visitor) within it.
+**R:** One template, 22 real local sites — a genuine design-system outcome, not a one-off page.
+**Use for:** "Tell me about a design-systems project," "How do you balance local flexibility against brand consistency?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Edo — turning a research finding into a product decision (research → insight → design)
+**S:** An Ironhack bootcamp project with a real non-profit stakeholder, designing a nutrition app from zero.
+**T:** Understand why nutrition-tracking apps generally fail to engage the people who'd benefit most from them.
+**A:** Ran interviews and found people were nutrition-aware and valued it, but didn't see apps as the right tool — one interviewee said his best nutrition tool was a bathroom scale. Proposed and prototyped a photo-to-nutrition feature as a direct response to that gap.
+**R:** A concrete design response grounded in a specific, memorable research finding rather than assumption.
+**Use for:** "Walk me through your research process," "Tell me about a surprising research finding."
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 4. Parallel Architecten — questioning a request instead of just executing it (critical thinking)
+**S:** A client (an architecture agency) requested an AI chatbot on a premium, high-end website — a feature that initially seemed to work against the brand's positioning.
+**T:** Decide whether and how to implement a request that seemed to conflict with the product's own goals.
+**A:** Rather than pushing back or complying silently, ran further user interviews across audience segments (from casual homebuyers to professional architects) to understand how the chatbot would actually land.
+**R:** Delivered a chatbot that fit the premium context instead of undermining it — and internalized a clear principle: balance innovation against user expectations rather than introducing novelty for its own sake.
+**Use for:** "Tell me about a time you disagreed with a stakeholder," "How do you handle a request you're skeptical of?"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 5. Country relocation and career specialization (adaptability, follow-through)
+**S:** Relocated from Israel to the Netherlands for a relationship, restarting a career from zero in a new country and a non-native language.
+**T:** Rebuild a professional footing, initially through general labour, while deciding on a longer-term direction.
+**A:** After two years in a first Dutch job, made a deliberate decision to stop moving between roles on curiosity alone and specialize — leading directly to the Ironhack UX/UI bootcamp in 2023.
+**R:** A decade of genuinely varied work turned into a specific, chosen direction, timed alongside starting a family — evidence of adaptability that was lived, not claimed.
+**Use for:** "Tell me about a career change," "How do you handle major life transitions?"
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why did you leave Noor Sportswear?" / "What have you been doing for the past year?"
+> Spent the year at Noor Sportswear running all of the brand's non-digital visual output — signage design and installation for retailers and events, plus branding materials — full ownership, not assistance. It's a gap in screen-based UX work, not a gap in design: I also won the CreativeJam at Dutch Design Week during that same window. If pressed on why: I have a family, and freelance UX income was project-to-project; sign work is something I've done for years and could rely on. I never stopped designing — I changed what I was designing.
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "You don't have in-house UX team experience."
+> That's accurate — my UX work so far has been freelance, volunteer, and bootcamp-client-based rather than as an employed team member. What that work has included, though, is real external clients with real business problems: an NPO template running across 22 sites, a SaaS product where my research changed the stakeholders' approach, and an architecture firm's chatbot integration. The gap is the employment structure, not the substance of the work.
+
+### "Why did you switch from sign work to UX, then back to sign work?"
+> The switch to UX in 2023 was deliberate — after years of curiosity-driven work across unrelated trades, I wanted to stop being a generalist and specialize in something that combines the visual craft instinct I already had with a genuine interest in why people behave the way they do, which I discovered was the part of UX that actually captivated me. Sign work came back into the picture for financial reasons as a family man — reliable income while I kept building the UX track on the side. Both are the same instinct in different materials: making something visual work precisely, for a real audience, under real constraints.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Building toward more research- and product-ownership-heavy UX work, and longer-term, moving into building with AI directly rather than only designing around it — that direction is already showing up in side projects I'm doing now.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> Foil and vinyl application, specifically, within sign work — I know the method and materials well, but I'm honestly slower at hands-on application than at the design and production side. It's a speed gap, not a knowledge gap, and it's the kind of thing that improves with repetition.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

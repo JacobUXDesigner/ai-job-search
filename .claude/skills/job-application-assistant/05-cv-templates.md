@@ -115,12 +115,13 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For UX/UI Design roles (primary track):**
+> An everlasting curious designer with a decade of commercial creative and client-facing work before a deliberate 2023 career swap into UX/UI. What captivated me about UX wasn't the interface — it was understanding what people actually need and why, an instinct trained by a Classics degree spent questioning assumptions and reconstructing meaning from fragments. My work spans NPO design systems, SaaS prototyping, and client-facing web redesigns, with research that has changed what stakeholders decided to build.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Sign Craft / Visual Production roles (active track):**
+> A sign specialist and visual craftsperson with over a decade of hands-on experience across signage design, fabrication, and installation. Meticulous, precise, and equally comfortable owning a brand's full physical visual presence — from concept to in-store installation — as executing to someone else's spec. Recent work includes full ownership of non-digital visual output for a premium sportswear brand.
+
+Do not blend the two tracks in one document — pick the track that matches the posting and pull only the matching statement. See the Career wiki's positioning-tracks page for the reasoning behind keeping them separate.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

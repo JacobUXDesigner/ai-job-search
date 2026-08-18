@@ -8,6 +8,8 @@ framework_version: 1.2.2
 
 ## Eligibility Gate — run before scoring
 
+**Candidate eligibility on file:** Jacob is legally eligible to work in the **Netherlands** (resident), **Israel**, and the **USA**. For postings based in any of these three countries — including remote roles for companies headquartered there — this gate passes without further checking. For any other country, run the full check below.
+
 If the candidate is not a citizen or permanent resident of the country they are applying in, run this first. It is a hard filter, not a scoring dimension, and it is separate from work-permit *timing*: timing asks "can they work the required hours yet?", eligibility asks "are they permitted to hold this job at all?". A candidate can pass timing and still be categorically excluded.
 
 Read the posting's eligibility / work rights / "who can apply" section **verbatim** and classify:
@@ -60,9 +62,10 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas (UX/UI track):** UX research, design systems, information architecture, wireframing/prototyping, Figma, design-thinking methodology
+**Strong match areas (Sign Craft track):** Signage design and production, vinyl/print materials, visual merchandising, Sketchup, Adobe Creative Suite
+**Moderate match areas:** HTML/CSS, front-end collaboration, accessibility design, project management/client relations (a decade of direct client work)
+**Weak match areas:** Software engineering/development proper, heavy quantitative data science, foil/vinyl application execution speed (technique is known; speed is the gap)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -74,9 +77,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** UX/product design (junior-to-mid — a bootcamp certificate plus real client and NPO projects, not a degree, but backed by a decade of commercial creative work at Itzuv Be'shilut); sign/visual craft and production (a decade-plus, most recently full ownership at Noor Sportswear)
+**Moderate:** Design systems and multi-tenant/scalable template work (Herenboeren); SaaS/B2B product design (RunPerfect); AI-adjacent design (one concrete anchor: the Parallel Architecten chatbot)
+**Entry-level:** Formal in-house UX team experience — all UX work to date has been freelance, volunteer, or bootcamp-client-based, never as an employed UX team member
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,23 +110,30 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Move into a UX/product design role that involves real research and ambiguous problems, not just visual production
+- Build toward AI-adjacent design work over time — designing with and around AI, and eventually building with it directly
+- Establish steady, specialized footing after years of deliberately varied work — depth over breadth from here on
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: ambiguous, research-heavy problems; complex systems (SaaS/B2B, enterprise tools); understanding user behavior and psychology, not just interface polish; direct stakeholder/client relationships
+- Tasks that drain: pure visual-production work with no research input; highly rigid processes that don't allow questioning the brief
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Family man with two children — financial stability is a real, non-negotiable factor, not a soft preference. This is also the honest reason sign-craft roles stay in scope alongside UX.
+- **Flexibility**: Commute range is Uden and nearby cities ('s-Hertogenbosch, Eindhoven, Nijmegen); remote roles are also in scope; eligible to work in NL, Israel, and the USA (see Eligibility Gate above)
+- **Professional development**: Prioritizes roles with a genuine growth path toward research/product ownership and, longer-term, AI-adjacent work
 
 ### 6. Salary Benchmark (Optional)
 
-If the salary lookup tool is configured (`salary_data.json` exists), look up the company:
+**Sign Craft track postings:** `salary_lookup.py` does not apply — see
+`09-cao-salary-reference.md` for why (no Dutch equivalent of the Danish per-company index
+exists) and use that file's CAO reference instead. Check whether the posting names a CAO
+(Sign-cao, Grafimedia-cao, etc.) or a function title, note the function group per that file's
+table, and if an exact figure is needed, read the archived CAO PDF fresh per that file's
+procedure — never from a cached number.
+
+**Other tracks / if the salary lookup tool is configured** (`salary_data.json` exists), look up the company:
 ```
 python salary_lookup.py "<Company Name>" --json
 ```

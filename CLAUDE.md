@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Jacob Bunan
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Jacob Bunan, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +13,96 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Jacob Bunan
+- **Location:** Uden, North Brabant, Netherlands (commute range: Uden + 's-Hertogenbosch, Eindhoven, Nijmegen; remote also in scope; eligible to work in NL, Israel, and USA)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | C2 |
+  | Hebrew | C2 (native/bilingual) |
+  | Dutch | B1+, just below B2 |
+  | Latin | B1 |
+  | Ancient Greek | B1 |
+- **CV language:** track-dependent, set by Jacob 2026-08-10. **UX/UI track: English.** **Sign Craft / Visual Production track: Dutch** — these roles are overwhelmingly Dutch SMEs, so a Dutch CV is better targeted and reinforces the language signal. Within a track the language is fixed; never switch per posting. When writing Dutch, translate the `\section{...}` headings and the References line too (see `05-cv-templates.md`).
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Between roles since Mar 2026 (last role: Sign Specialist, Noor Sportswear). Actively applying to both tracks below.
+- **LinkedIn headline:** "UX designer | Sign Specialist | Adobe creative suite | Affinity | Figma | Sketchup"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BA, Classical Studies (Latin & Greek)** (Oct 2015 - Feb 2020) - Hebrew University of Jerusalem
+  - Topics: Greek and Roman antiquity — language, culture, literature, history, philosophy. Final grade 80.62.
+- **Certificate, UX/UI Design** (May-Jul 2023, 9-week bootcamp) - Ironhack
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Sign Specialist** (Mar 2025 - Mar 2026) - **Noor Sportswear B.V.** ('s-Hertogenbosch, NL)
+  - Internal specialist for non-digital visual communication: translated stakeholder briefs and budgets into signage specifications (format, size, material), sourced from external vendors (physical production was not in-house — see full correction in `01-candidate-profile.md`)
+  - Built a modular visual toolkit in Sketchup and Adobe Creative Suite
+- **UX/UI Designer, Freelance & client projects** (Jul 2023 - Mar 2025) - Netherlands
+  - Herenboeren Foundation: scalable template serving 22 local chapters
+  - RunPerfect (SaaS, NDA): research led stakeholders to re-evaluate their product approach
+- **Sign Production, Client Liaison** (2004 - 2014) - **Itzuv Be'shilut** (Qiryat Shemona, Israel), his father's sign-production business
+  - Worked directly with clients to translate their needs into workable specifications; produced and installed signage. His father founded and artistically led the business — not a creative-leadership role for Jacob.
+
+See `01-candidate-profile.md` for the full history across both tracks.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary (UX/UI track):** UX research, design systems, information architecture, wireframing/prototyping, Figma
+- **Primary (Sign Craft track):** Signage design and production, vinyl cutting, visual merchandising, Sketchup
+- **Domain:** SaaS/B2B product design, NPO/multi-tenant design systems, retail visual merchandising
+- **Software:** Figma, Framer, Adobe Creative Suite, Sketchup, Affinity Designer, HTML/CSS
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **UX/UI Design** - Ironhack - completed Jul 2023
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Bunan, J. (2026). Losing yourself in the age of AI. Medium.
+- Bunan, J. (2024). Case Study: Parallel Architecten website overhaul. Medium (Bootcamp Publication).
+- Bunan, J. (2023). Case Study: Wellness Project (Edo). Medium (Bootcamp Publication).
+- Bunan, J. (2023). Case Study: E-commerce website for a personal trainer (StrongRoots). Medium.
+- Bunan, J. (2023). Case study: A wicked problem. Medium.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Winner, CreativeJam challenge - Dutch Design Week (2025)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- No formal assessment on file; synthesized from LinkedIn About, received recommendations, and stated direction. See 02-behavioral-profile.md for full detail and sourcing. -->
+- **Root-cause orientation** - Trained by a Classics/philosophy background to question assumptions rather than accept surface framing
+- **Precision and craft** - A decade in visual craftsmanship carries directly into interface and system-level design work
+- **Strengths:** Systems thinking across disparate domains, collaborative and receptive to feedback, reliable under real financial/family constraints
+- **Growth areas:** Portfolio depth since the bootcamp is leaner than the underlying skill — frame as deliberate focus, not a gap
+- **Thrives in:** Ambiguous, research-heavy problems; complex systems (SaaS/B2B, enterprise tools); direct stakeholder relationships
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Understanding what people actually need and why — the psychology/behavior side of UX, discovered during the bootcamp, mattered more than the visual side
+- Complex, underspecified problems where the real issue isn't obvious yet
+- Longer-term: building with AI directly, not just designing around it
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **UX/UI Design:** SaaS/B2B product companies, design-systems-heavy product teams, AI-adjacent tooling
+- **Sign Craft / Visual Production:** Retail brands, signage and visual-merchandising companies, agencies with a production arm
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Financial security is non-negotiable — family man with two children; this is also why Sign Craft roles stay in scope alongside UX
+- No roles requiring citizenship/PR in a country outside NL, Israel, or USA (see Eligibility Gate in `04-job-evaluation.md`)
+
+## Location Verification (Sign Craft track)
+
+Set 2026-08-10 after PromoXL (Mierlo) was presented as "~35-40 min" and turned out to be a real 45-minute drive, discovered only after Jacob had already applied. Drive-time distances in this workflow are not checked against a routing source — they're an estimate from place names.
+
+- **Sign Craft track on-site roles: cap at ~30-35 min drive from Uden.**
+- **State any drive-time as an estimate, never as a checked fact**, and tell Jacob to verify it himself before he invests time in a posting.
+
+## Deliverable File Naming (set 2026-08-11)
+
+Two separate naming systems, deliberately kept apart:
+
+- **Working files** (`cv/main_<company>_<role>.tex`, `cover_letters/cover_<company>_<role>.tex`) — internal, efficient, machine-consistent. This naming never changes; it's what the workflow, the tracker, and this repo's own bookkeeping use.
+- **Deliverables** (`deliverables/`, gitignored) — the finished, human-readable copies Jacob actually receives once a CV/cover letter is compiled and finalized (Step 6 of `/apply`). Pattern:
+  - `Jacob Bunan - CV <Role short name> - <Company>.pdf`
+  - `Jacob Bunan - Cover Letter - <Company>.pdf`
+  - `<Role short name>` is a plain job-title word (e.g. "Signmaker", "DTP Specialist", "UX-UI Designer"), not the internal file slug.
+
+Only produce a deliverable copy once a document is genuinely finished (compiled, verified, ready to send) — draft review during `/apply` still uses an in-session artifact, never a PDF (see the standing review-workflow rule). The deliverable is the last step, not a review tool.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

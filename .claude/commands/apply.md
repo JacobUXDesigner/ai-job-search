@@ -307,7 +307,9 @@ List the files written:
 - `cv/main_<company>_<role><CV_EXT>`
 - `cover_letters/cover_<company>_<role><COVER_EXT>`
 
-Tell the user: "Both files are ready for your review. Open them to check the final output before compiling."
+**Produce the deliverable copies** (see "Deliverable File Naming" in the workspace root `CLAUDE.md`): copy the final compiled PDFs into `deliverables/` with human-readable names — `Jacob Bunan - CV <Role short name> - <Company>.pdf` and `Jacob Bunan - Cover Letter - <Company>.pdf`. These are the finished product for Jacob to send; the `cv/`/`cover_letters/` files remain the internal working copies.
+
+Tell the user both are ready, and point to the `deliverables/` copies specifically.
 
 ### Application-Form Fields (Optional Third Artifact)
 

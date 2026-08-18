@@ -1,8 +1,9 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Master CV - Jacob Bunan
+%% Comprehensive overview of all competencies, experience, and achievements across
+%% both active tracks (UX/UI Design, primary; Sign Craft, active).
+%% Use as a master reference when tailoring role-specific CVs -- do not send this
+%% file as-is to an employer; tailor per posting via /apply.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -19,23 +20,24 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{needspace}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Jacob Bunan - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Jacob}{Bunan}
+\address{Uden, North Brabant, Netherlands}{}{}
+\phone[mobile]{0651779941}
+\email{kobi.bunan@gmail.com}
+\extrainfo{\href{https://jacobbunan.com}{Portfolio}, \href{https://linkedin.com/in/jbunandesigner}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +48,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{An everlasting curious designer with a decade of commercial creative and client-facing work before a deliberate career swap into UX/UI design. What captivated me about UX was understanding what people actually need and why -- an instinct trained by a Classics degree spent questioning assumptions and reconstructing meaning from fragments. My work spans NPO design systems, SaaS prototyping, and a decade of hands-on visual craft and production, most recently full ownership of a retail brand's physical visual presence.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +58,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{UX Research \& Design Systems}: User research, information architecture, wireframing, prototyping, design-thinking methodology -- built a single template serving 22 local sites for an NPO
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Product Design}: SaaS/B2B interface design, high-fidelity prototyping, tablet-optimized UI; research that has changed stakeholder product decisions
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Visual Craft \& Production}: Signage design, fabrication, and installation; vinyl cutting; visual merchandising -- a decade-plus across client and in-house work
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Client \& Stakeholder Management}: A decade of direct client relationship management, translating briefs into concrete visual and product solutions
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Tools}: Figma, Framer, Adobe Creative Suite, Sketchup, Affinity Designer, HTML/CSS
 
 \end{itemize}
 
@@ -76,33 +78,53 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Noor Sportswear ---
+\needspace{5\baselineskip}
+\item{\cventry{Mar 2025 - Mar 2026}{Sign Specialist}{Noor Sportswear B.V.}{'s-Hertogenbosch, Netherlands}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Acted as the internal specialist for non-digital visual communication for a premium sportswear brand: translated stakeholder briefs and budgets into signage specifications (format, size, material)
+    \item Sourced and ordered signage from external vendors based on that specification, across multiple retail touchpoints
+    \item Built a modular visual toolkit in Sketchup and Adobe Creative Suite that reduced turnaround time on campaign materials
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Freelance UX ---
+\needspace{5\baselineskip}
+\item{\cventry{Jul 2023 - Mar 2025}{UX/UI Designer, Freelance \& client projects}{}{Netherlands}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item \textbf{Herenboeren Foundation} (NPO, volunteer): designed a single scalable website template serving 22 local chapters, balancing local identity against one consistent parent brand
+    \item \textbf{RunPerfect} (SaaS, NDA): designed a tablet-optimized, high-fidelity prototype; design research led stakeholders to re-evaluate their product approach
+    \item \textbf{Ironhack client projects, 2023}: Parallel Architecten (architecture agency, Belgium/Spain -- restructured the information architecture; user-tested a stakeholder-requested chatbot with 7 interviewees including 2 architects rather than building it unquestioned); StrongRoots (e-commerce for a personal trainer, Amsterdam); Edo (personalized-nutrition app concept)
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Wampi Reclame ---
+\needspace{5\baselineskip}
+\item{\cventry{Apr 2023 - Mar 2024}{Sign Installer}{Wampi Reclame}{Zeeland, Netherlands}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Installed printed and crafted signage on diverse materials including metal and glass
+    \item Applied vehicle branding and company design materials to vehicles
 \end{itemize}}}
+
+\vspace{3pt}
+
+% --- Itzuv Be'shilut ---
+\needspace{5\baselineskip}
+\item{\cventry{2004 - 2014}{Sign Production, Client Liaison}{Itzuv Be'shilut, family business}{Qiryat Shemona, Israel}{}{\vspace{1pt}
+\begin{itemize}
+    \item A decade of direct client relationship management, from individual customers to larger commercial accounts
+    \item Produced and installed signage and commercial print materials
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Other experience, summarized without invented metrics ---
+\needspace{4\baselineskip}
+\item{\cventry{2004 - 2022}{Other experience: arboriculture, climbing instruction, television production, air conditioning}{}{Netherlands \& Israel}{}{\vspace{1pt}
+A decade-plus of hands-on, curiosity-driven work across unrelated trades in two countries, before deliberately specializing in 2023.
+}}
 
 \end{itemize}
 
@@ -114,14 +136,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{Oct 2015 - Feb 2020}{BA, Classical Studies (Latin \& Greek)}{Hebrew University of Jerusalem}{Jerusalem, Israel}{}{\vspace{1pt}
+The study of Greek and Roman antiquity: language, culture, literature, history, and thought. Final grade 80.62.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{May 2023 - Jul 2023}{Certificate, UX/UI Design}{Ironhack}{Netherlands}{}{\vspace{1pt}
+9-week intensive bootcamp, 23 students.
 }}
 
 \end{itemize}
@@ -133,27 +155,29 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (C2), Hebrew (native/bilingual), Dutch (B1+, just below B2), Latin (B1), Ancient Greek (B1).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     PUBLICATIONS
 % ============================================================
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Bunan, J. (2026). \textit{Losing yourself in the age of AI.} \href{https://medium.com/@kobi.bunan}{Medium}.
+\item Bunan, J. (2024). \textit{Case Study: Parallel Architecten website overhaul.} Medium -- Bootcamp Publication.
+\item Bunan, J. (2023). \textit{Case Study: Wellness Project (Edo).} Medium -- Bootcamp Publication.
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Winner, CreativeJam challenge} -- Dutch Design Week (2025).}
 \end{itemize}
 
 % ============================================================
